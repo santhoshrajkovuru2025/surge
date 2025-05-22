@@ -1,0 +1,30 @@
+{
+   "ServiceCode":"2",
+   "TotalUnits":"1",
+   "FromDate":"03062025",
+   "ThruDate":"03062025",
+   "AdmitDate":"03062025",
+   "DischargeDate":"03062025",
+   "Serv_ICD9_1":"A52.02",
+   "Info":"Enter Miscellaneous TAR Information (500 characters accepted)",
+
+   "DME_Beds":"x2996",
+   "Modifier":"HE",
+   "Totalunits_1":"2",
+   "FromDate_1":"03102025",
+   "ThruDate_1":"03102025",
+   "AdmitDate_1":"03102025",
+   "DischDate_1":"03102025",
+   "Serv_ICD9_1_1":"A52.03",
+   "Serv_DateOnset_1_1":"03102025",
+   "PhysPresc":"No Prescription",
+   "PhysLicNum":"00A088450",
+   "PhysName":"Prescribing provider",
+   "PhysPhne1":"916",
+   "PhysPhne2":"858",
+   "PhysPhne3":"8452",
+   "PrescriptDte":"03102025",
+   "TurningSchedule":"2",
+   "LabDate":"03102025"
+}
+
