@@ -29,7 +29,7 @@ describe("Test Suite: To Test the Application - Automation Testing Practice", fu
             return false;
         })
     })
-    it.only("ss",function(){
+    it("ss",function(){
         
 
         cy.window().then(function(win){
@@ -40,13 +40,12 @@ describe("Test Suite: To Test the Application - Automation Testing Practice", fu
         cy.get('#demo').should('contain','I am santhosh');
     })
 
-    it("Handle Prompt Alert",function(){
+    it.only("Handle Prompt Alert",function(){
  
        
         cy.window().then(function(win){
             cy.stub(win,'prompt').returns('I am Happy');
         })
- 
         cy.get('[id="promptBtn"]').click()
         cy.contains('Prompt').click();
         cy.get('#demo').should('contain', 'I am Happy');
