@@ -17,7 +17,7 @@ describe("To Purchase an item", () => {
             }
 
         );
-
+        cy.visit('https://demowebshop.tricentis.com/')
     })
     it("toRegister", () => {
         cy.get('[href="/register"]').click().should('have.class', 'ico-register')
@@ -41,7 +41,6 @@ describe("To Purchase an item", () => {
     it.only('toSelectTheProduct', () => {
 
         // Annotations 
-        cy.wait(5000)
         cy.xpath('(//a[normalize-space(text())="Computers"])[1]').click({force:true})
         cy.xpath('(//a[@href="/notebooks"])[4]').click()
         cy.xpath('//input[@value="Add to cart"]')
