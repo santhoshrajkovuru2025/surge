@@ -27,12 +27,16 @@ describe("To automate Automation Testing",()=>{
     it.only('webTables',()=>{
 
         cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
-        cy.get('tr td:nth-child(2)').each(( $e1, index, $list) => {
 
-            const text = $el.text()
-            if(text.includes('python')){
-                cy.get('tr td:nth-child(2)').eq(index).next().then(function(){
-                    const pricetext(2)
+        cy.get('tr td:nth-child(2)').each(($e1, index, $list) => {
+
+            const text = $e1.text()
+            if(text.includes("Python"))
+                {
+                cy.get("tr td:nth-child(2)").eq(index).next().then(function(price)
+                {
+                    const priceText= price.text() 
+                    expect(priceText).to.equal('25')
                 })
             }
         })
