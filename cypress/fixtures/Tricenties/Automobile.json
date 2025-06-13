@@ -1,0 +1,38 @@
+{
+ "_comment": "This elements related to Automobile module(few feilds are commeon across modules)",
+
+ "loginURL":"https://sampleapp.tricentis.com/101/index.php",
+    "make":"Nissan",
+    "enginePerformance": "1400",
+    "dateOfMnf": "06/10/2024",
+    "seats": "5",
+    "fuelType": "petrol",
+    "price": "15000",
+    "lpn":"KJI5185925",
+    "mileage":"999",
+    "firstName": "Alice",
+    "lastName":"Joe",
+    "dob" :"06/10/1987",
+    "streetAddess":"fremont",
+    "country":"India",
+    "zipCode":"98450",
+    "city":"california",
+    "occupation":"Farmer",
+    "website":"www.website.com",
+    "startDate":"06/10/2035",
+    "insuranceSum":"3",
+    "meritRating":"Malus 13",
+    "damageInsurance":"Full Coverage",
+    "courtesyCar":"Yes",
+
+ "comment1": "This elements related to Truck module", 
+
+    "payload":"999",
+    "totalWeight":"34000",
+
+
+"comment2": "This elements related to MotorCycle module", 
+
+    "model": "Three-Wheeler",
+    "cc": "1400"
+}
