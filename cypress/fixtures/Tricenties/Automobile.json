@@ -1,6 +1,7 @@
 {
  "_comment": "This elements related to Automobile module(few feilds are commeon across modules)",
 
+ "loginURL":"https://sampleapp.tricentis.com/101/index.php",
     "make":"Nissan",
     "enginePerformance": "1400",
     "dateOfMnf": "06/10/2024",
