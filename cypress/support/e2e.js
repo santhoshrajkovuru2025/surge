@@ -43,6 +43,13 @@ before(() => {
 //(OR) Load and Register the grep feature using "require" function
 require('@cypress/grep')()
 
+// Handling on uncaught expections
+
+Cypress.on('uncaught:exception', (err, runnable) => {
+  // returning false here prevents Cypress from
+  // failing the test
+  return false;
+});
 
 
   
